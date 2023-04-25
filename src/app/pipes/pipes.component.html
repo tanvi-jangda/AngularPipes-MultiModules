@@ -1,0 +1,21 @@
+<h2>lowercase: {{name | lowercase}}</h2>
+<h2>uppercase:{{name | uppercase}}</h2>
+<h2>title case:{{name | titlecase}}</h2>
+<h2>slice:{{name | slice:10}}</h2>
+<hr>
+<h2>Date:{{today}}</h2>
+<h2>only date part: {{today|date}}</h2>
+<h2>short date {{today|date:'short'}}</h2>
+<h2>short date {{today|date:'shortDate'}}</h2>
+<h2>short time {{today|date:'shortTime'}}</h2>
+<hr>
+<h2>raw value: {{value}}</h2>
+<h2> value: {{value | number: '1.2-3'}}</h2>
+<h2> value: {{value | number: '4.4-5'}}</h2>
+<hr>
+<h2>Json: {{institue}}</h2>
+<h2>Json: {{institue |json}}</h2>
+<hr>
+<h2>Custom pipes: {{name|marvellous: "PPA"}}</h2>
+<h2> {{name|marvellous: "LB"}}</h2>
+<h2> {{name|marvellous: "MEAN"}}</h2>
